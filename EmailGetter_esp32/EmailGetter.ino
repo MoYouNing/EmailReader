@@ -68,7 +68,7 @@ void sendData(){
   while(true){
   String httpString;
   HTTPClient httpClient;
-  httpClient.begin("http://124.221.181.50:10010/mail/");
+  httpClient.begin("http://x.x.x.x:8888/mail/");
   //httpClient.begin("http://192.168.147.240:8888/mail/");
   int httpCode = httpClient.GET();
   if (httpCode > 0) {
